@@ -1,0 +1,14 @@
+.nav {
+  position: fixed;
+  height: 105px;
+  width: 250vh;
+  background-color: lightsteelblue;
+  padding-left: 50px;
+
+}
+
+.btn {
+  height: 25px;
+  width: 100px;
+  margin: 2px;
+}
