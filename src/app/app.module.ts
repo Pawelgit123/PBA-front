@@ -5,16 +5,28 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { GetjumpComponent } from './components/getjump/getjump.component';
+import { OurjumpsComponent } from './components/ourjumps/ourjumps.component';
+import { RequirementsComponent } from './components/requirements/requirements.component';
+import { AboutComponent } from './components/about/about.component';
+import {ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    FooterComponent
+    FooterComponent,
+    ContactComponent,
+    GetjumpComponent,
+    OurjumpsComponent,
+    RequirementsComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

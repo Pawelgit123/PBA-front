@@ -1,14 +1,17 @@
 .nav {
   position: fixed;
-  height: 105px;
-  width: 250vh;
+  left: 0 ; right: 0; top: 0;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
   background-color: lightsteelblue;
   padding-left: 50px;
-
 }
-
 .btn {
-  height: 25px;
-  width: 100px;
-  margin: 2px;
+  height: 30px;
+  width: 130px;
+  margin-left: 50px;
 }
+
+
+
