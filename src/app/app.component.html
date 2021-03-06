@@ -4,13 +4,19 @@
   <router-outlet></router-outlet>
   <!-- miejsce wyrendrowania komponentu -->
   <!-- <router-outlet></router-outlet> -->
+  <p class="weather">Pogoda:</p>
 
+  <div class="weatherdisplay" *ngFor="let forecast of forecasts">
+    <p>Temperatura: {{forecast.temp}}</p>
+    <p>Data: {{forecast.dateAndTime}}</p>
+
+  </div>
 
   <app-footer></app-footer>
 </main>
 <footer></footer>
 
-<!--<div class="content" role="main">-->
-<!--</div>-->
+<!--&lt;!&ndash;<div class="content" role="main">&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
 
 

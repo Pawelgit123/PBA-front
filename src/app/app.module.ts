@@ -11,6 +11,7 @@ import { OurjumpsComponent } from './components/ourjumps/ourjumps.component';
 import { RequirementsComponent } from './components/requirements/requirements.component';
 import { AboutComponent } from './components/about/about.component';
 import {ReactiveFormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -21,12 +22,13 @@ import {ReactiveFormsModule} from '@angular/forms';
     GetjumpComponent,
     OurjumpsComponent,
     RequirementsComponent,
-    AboutComponent
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
