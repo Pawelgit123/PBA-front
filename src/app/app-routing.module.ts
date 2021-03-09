@@ -6,6 +6,8 @@ import {ContactComponent} from './components/contact/contact.component';
 import {AboutComponent} from './components/about/about.component';
 import {RequirementsComponent} from './components/requirements/requirements.component';
 import {AppComponent} from './app.component';
+import {Forecast} from './components/model/forecast';
+import {ForecastComponent} from './components/forecast/forecast.component';
 
 const routes: Routes = [
   {path: 'getjump', component: GetjumpComponent},
@@ -13,6 +15,7 @@ const routes: Routes = [
   {path: 'contact', component: ContactComponent},
   {path: 'about', component: AboutComponent},
   {path: 'req', component: RequirementsComponent},
+  {path: 'forecast', component: ForecastComponent},
   {path: '', component: AppComponent}
 
 ];

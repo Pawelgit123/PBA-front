@@ -1,0 +1,12 @@
+<section class="forecast">
+  <div class="weatherdisplay" *ngFor="let forecast of forecasts">
+
+    <ul class="forecastlist">
+      <li class="forecastitem">Data: {{forecast.dateAndTime}}</li>
+      <li class="forecastitem">Temperatura: {{forecast.temp}}</li>
+    </ul>
+
+  </div>
+
+</section>
+

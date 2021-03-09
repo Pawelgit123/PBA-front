@@ -1,16 +1,15 @@
 <header></header>
 <main class="app-main">
   <app-nav></app-nav>
-  <router-outlet></router-outlet>
+  <router-outlet class="router"></router-outlet>
   <!-- miejsce wyrendrowania komponentu -->
   <!-- <router-outlet></router-outlet> -->
-  <p class="weather">Pogoda:</p>
 
-  <div class="weatherdisplay" *ngFor="let forecast of forecasts">
-    <p>Temperatura: {{forecast.temp}}</p>
-    <p>Data: {{forecast.dateAndTime}}</p>
+<!--  <div class="weatherdisplay" *ngFor="let forecast of forecasts">-->
+<!--    <p>Temperatura: {{forecast.temp}}</p>-->
+<!--    <p>Data: {{forecast.dateAndTime}}</p>-->
 
-  </div>
+<!--  </div>-->
 
   <app-footer></app-footer>
 </main>

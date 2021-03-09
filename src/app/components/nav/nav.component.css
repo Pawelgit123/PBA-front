@@ -9,8 +9,12 @@
 }
 .btn {
   height: 30px;
-  width: 130px;
+  width: 110px;
   margin-left: 50px;
+}
+.btn-forecast {
+  background-color: antiquewhite;
+  border-radius: 5px;
 }
 
 

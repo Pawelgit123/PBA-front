@@ -1,14 +1,20 @@
-.app-main{
+.app-main {
   display: flex;
 }
 
-.weather{
+.router {
   margin-top: 115px;
   display: flex;
   width: 200vh;
 }
 
-.weatherdisplay{
+.weather {
+  margin-top: 115px;
+  display: flex;
+  width: 200vh;
+}
+
+.weatherdisplay {
   margin-top: 205px;
   display: flex;
   width: 200vh;

@@ -1,0 +1,23 @@
+.forecast {
+  margin-top: 115px;
+  display: flex;
+  width: 200vh;
+  height: 100vh;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.weatherdisplay {
+  display: flex;
+}
+
+.forecastlist{
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.forecastitem{
+  display: flex;
+  background-color: antiquewhite;
+  border-block-style: solid;
+}

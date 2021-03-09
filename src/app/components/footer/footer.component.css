@@ -1,7 +1,11 @@
 .footer{
-  position: absolute;
-  left: 0 ; right: 0; bottom: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
   height:35px;
+  width: 100%;
   background-color: lightsteelblue;
   text-align: center;
 }

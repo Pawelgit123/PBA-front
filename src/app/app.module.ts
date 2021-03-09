@@ -12,6 +12,7 @@ import { RequirementsComponent } from './components/requirements/requirements.co
 import { AboutComponent } from './components/about/about.component';
 import {ReactiveFormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
+import { ForecastComponent } from './components/forecast/forecast.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import {HttpClientModule} from '@angular/common/http';
     OurjumpsComponent,
     RequirementsComponent,
     AboutComponent,
+    ForecastComponent,
   ],
   imports: [
     BrowserModule,
